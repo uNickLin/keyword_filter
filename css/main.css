@@ -1,0 +1,46 @@
+html, body {
+  padding: 20px 10px;
+}
+
+h4 {
+  line-height: 35px;
+  letter-spacing: 1px;
+  min-height: 45px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.postbox {
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.postbox:hover .postbox_inner {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.postbox:hover .img {
+  background-size: 110% auto;
+}
+
+.postbox_inner {
+  height: 420px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.postbox_inner * {
+  margin-bottom: 10px;
+}
+.postbox_inner .img {
+  height: 180px;
+  background-size: 100% auto;
+  background-position: center center;
+  transition: 0.5s;
+  margin: -10px -20px 20px -20px;
+}
+
+.highlight {
+  background-color: red;
+  color: white;
+}
+
